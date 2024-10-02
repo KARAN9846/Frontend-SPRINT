@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.nav{
+    width: 100%;
+    height: 6%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.nav h4 {
+    font-size: 18px;
+}
+
+.nav i {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#center{
+    height: 57%;
+    width: 100%;
+    /* background-color: yellow; */
+    padding: 10px 70px;
+}
+
+#center h1 {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 70px;
+    
+}
+
+.center-in{
+    /* height: 150px; */
+    /* background-color: lightblue; */
+    width: 100%;
+    /* margin-top: 30px; */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-in p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.right{
+    width: 20%;
+}
+
+.elem{
+    /* background-color: yellow; */
+    padding: 15px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.elem i {
+    font-size: 25px;
+    opacity: 0;
+}
+ .elem:hover i{
+    opacity: 1;
+ }
+
+ .elem:hover a {
+    text-decoration: underline;
+ }
+
+ .bottom {
+    height: 40%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/646840842/photo/young-blond-woman-in-brown-jacket.jpg?s=2048x2048&w=is&k=20&c=jDDfpJ1dZAH7WW6KRWzPvqTa8ry8HJiXIv4r2pWIus0=);
+    background-size: cover;
+    background-position: center;
+ }

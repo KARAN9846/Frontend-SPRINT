@@ -4,7 +4,6 @@ A simple and elegant webpage layout for a fashion store homepage, showcasing a p
 
 ## Features
 
-- **Responsive Design**: Adapts to different screen sizes using flexbox and grid layouts.
 - **Navigation Bar**: Simple navigation links (Home, About, Store) and a shopping cart icon.
 - **Product Section**: 
   - Large, eye-catching heading for product information.

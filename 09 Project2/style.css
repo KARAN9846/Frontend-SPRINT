@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Gilroy;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: #333; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.nav-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.nav-part-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-part-2 h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-part-2 h4 span {
+    color: #999;
+}
+
+.nav2{
+    height: 30px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    gap: 60px;
+    /* background-color: red; */
+}
+
+
+.content{
+    height: calc(100% - 110px);
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.text-content{
+    height: 40%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+    
+}
+
+.text-content::-webkit-scrollbar{
+    background-color: transparent;
+    /* height: 5px; */
+    scrollbar-width: 2px;
+}
+
+.text-content::-webkit-scrollbar-thumb{
+    background-color: orangered;
+
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+    height: 5px;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.elem h1{
+    font-size: 130px;
+    font-weight: 100;
+    
+}
+
+.image-content{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    
+    /* background-color: blue; */
+}
+
+.image-content img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    
+}
